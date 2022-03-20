@@ -1,0 +1,40 @@
+form {
+  text-align: center;
+  text-indent: 0%;
+  border-radius: 8.5em;
+}
+h1 {
+  text-indent: -12%;
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  text-indent: 10%;
+  align-items: left;
+}
+
+.input {
+  border-radius: 40px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 35px;
+}
+.btn {
+  border-radius: 40px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 35px;
+}
+.btn:hover {
+  color: whitesmoke;
+  border-color: blue;
+  box-shadow: blue;
+  background-color: blue;
+}
+.content {
+  border: 2px solid black;
+  margin: auto;
+  width: 400px;
+  padding-bottom: 30px;
+}

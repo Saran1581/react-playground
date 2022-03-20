@@ -1,0 +1,30 @@
+.input:hover {
+  background-color: whitesmoke;
+  border-color: blue;
+}
+
+.input {
+  border-radius: 30px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 35px;
+}
+.btn {
+  border-radius: 40px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 35px;
+}
+.btn:hover {
+  color: whitesmoke;
+  border-color: blue;
+  box-shadow: blue;
+  background-color: blue;
+}
+.content {
+  border: 2px solid black;
+  margin: auto;
+  width: 600px;
+  padding-bottom: 30px;
+  align-items: center;
+}
