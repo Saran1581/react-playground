@@ -62,7 +62,7 @@ const Login = () => {
   return (
     <div className="page">
       <div className="header">
-        <h2>EMPLOYEE MANAGEMENT SYSTEM</h2>
+        <h2 style={{ color: "blue" }}>EMPLOYEE MANAGEMENT SYSTEM</h2>
         <img src="https://cdn.vectorstock.com/i/1000x1000/49/94/businessman-group-employee-abstract-logo-vector-5454994.webp"></img>
         <div className="text-white ">
           New USER?{" "}
