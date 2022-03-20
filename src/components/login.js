@@ -79,7 +79,7 @@ const Login = () => {
 
       <br />
       <br />
-      <p className="text" style={{ color: "blue" }}>
+      <p className="text" style={{ color: "darkblue" }}>
         LOGIN
       </p>
       <br />
