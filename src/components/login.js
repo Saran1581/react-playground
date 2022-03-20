@@ -79,7 +79,9 @@ const Login = () => {
 
       <br />
       <br />
-      <p className="text">LOGIN</p>
+      <p className="text" style={{ color: "blue" }}>
+        LOGIN
+      </p>
       <br />
       <br />
       <div className="indent">
