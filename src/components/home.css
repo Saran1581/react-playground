@@ -1,6 +1,6 @@
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
   width: 100%;
 }
 
@@ -14,11 +14,17 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-.page {
+tr:nth-child(odd){
+  background-color: wheat;
+}
+.home-bg {
   background-image: url("D:/projects/react/first-react-app/src/components/emp_logo2.jpg");
   background-color: #0062cc;
   background-size: cover;
   align-content: stretch;
   align-items: stretch;
   border-image-width: 50%;
+}
+a{
+  color: black;
 }
