@@ -60,7 +60,7 @@ const Resetpassword = () => {
   };
 
   return (
-    <div class="content">
+    <div class="forget-content">
       {emailVerify ? (
         <div>
           <h1>Enter your new password</h1>

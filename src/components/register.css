@@ -1,40 +1,58 @@
-form {
-  text-align: center;
-  text-indent: 0%;
-  border-radius: 8.5em;
+/* .container {
+  background-image: url("../components/images/food2.jpg");
+  background-size: cover;
+  width: 1530px; 
+  height: 300%; */
+  /* border: 2px solid black; */
+  /* margin: auto;
+  
+  /* padding-bottom: 30px; */
+.container{
+  background-color: white;
 }
-h1 {
-  text-indent: -12%;
-  color: blue;
+.content{
+  align-content: center;
 }
-
-a {
-  text-decoration: none;
-  text-indent: 10%;
-  align-items: left;
-}
-
-.input {
-  border-radius: 40px;
+.form2{
+  height: 800px;
+  width: 450px;
+  background: white;
   box-sizing: border-box;
-  width: 250px;
-  height: 35px;
+  border-radius: 20px;
+  padding: 40px 95px -30px;
+  position: relative;
+  align-items: center;
+  max-width: 0%;
+  margin: calc(50vh - 350px) auto;
+  max-width: calc(100vw - 40px);
+  margin-top: auto;
 }
-.btn {
-  border-radius: 40px;
+.input2 {
+  border: none;
+  border-bottom: 2px solid black;
   box-sizing: border-box;
+
+  width: 300px;
+  height: 5px;
+  padding: 20px;
+  margin-left: 25px;
+}
+.input2.hover{
+  border: none;
+}
+.reg-btn {
+  border-radius: 40px;
+  margin-left: 16%;
   width: 200px;
   height: 35px;
 }
-.btn:hover {
+.reg-btn:hover {
   color: whitesmoke;
-  border-color: blue;
-  box-shadow: blue;
-  background-color: blue;
+  box-shadow: darkgreen;
+  background-color: green;
 }
-.content {
-  border: 2px solid black;
-  margin: auto;
-  width: 400px;
-  padding-bottom: 30px;
-}
+/* a {
+  text-indent: 10%;
+  margin-left: 21%;
+} */
+

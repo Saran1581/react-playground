@@ -1,0 +1,52 @@
+.Mainpg{
+    background-color: darkslategray;
+    display: flex;
+}
+.firstui{
+    margin-top: -2%;
+    height: 450px;
+    animation: animate 10s ease-in-out infinite;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url('./images/images.png');
+        background-size: cover;
+    }
+    30%{
+        background-image: url('./images/siet.jpg');
+        background-size: 100%;
+    }
+    60%{
+        background-image: url('./images/siet.jpg');
+        background-size: 100%;
+    }
+    90%{
+        background-image: url('./images/images.png');
+        background-size: cover;
+    }
+}
+.secondui{
+    background-color: darkolivegreen;
+    margin-top: -2%;
+    height: 650px;
+}
+.top{
+    color: white;
+    text-align: center;
+}
+.thirdui{
+    background-color: darkslategray;
+    margin-top: -2%;
+    height: 650px;
+}
+.uiRegister{
+    cursor: pointer;
+    background-color: red;
+    float: right;
+    width: 110px;
+    margin-right: 10%;
+}
+a{
+    padding: 20px;
+    color: white
+}

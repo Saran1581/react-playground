@@ -10411,46 +10411,5 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-.page {
-  background-image: url("D:/projects/react/first-react-app/src/components/bg.jpg");
-  background-color: #0062cc;
-  background-size: cover;
-  align-content: stretch;
-  align-items: stretch;
-  border-image-width: 50%;
-}
-.text {
-  text-align: center;
-  color: white;
-}
-.header {
-  background-color: whitesmoke;
-  padding: 5px;
-  height: 60px;
-}
-p {
-  font-size: 4vw;
-}
-.indent {
-  align-content: center;
-}
-.input {
-  width: 400px;
-  height: 60px;
-}
-input:active {
-  width: auto;
-}
-input:focus {
-  min-width: 200px;
-}
-img {
-  max-width: 0%;
-  max-height: 0%;
-  margin-left: 12px;
-}
-h2 {
-  text-align: center;
-}
 
 /*# sourceMappingURL=bootstrap.css.map */

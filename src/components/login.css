@@ -1,0 +1,121 @@
+/* .page {
+    background-image: url("../components/images/food1.jpg");
+    background-size: cover; */
+    /* align-content: stretch;
+    align-items: stretch; */
+    /* border-image-width: 0%;
+  }  */
+  /* .form{
+    height: 400px;
+    width: 450px;
+    background: none  ;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 40px 95px;
+    position: relative;
+    align-items: center;
+    max-width: 0%;
+    margin: calc(57vh - 305px) auto;
+    max-width: calc(100vw - 40px);
+  } */
+  /* .text {
+    margin-left: 10%;
+    color: blue;
+  } */
+  /* .header {
+    background-color: whitesmoke;
+    padding: 5px;
+    height: 60px;
+  } */
+  
+  /* img {
+    max-width: 0%;
+    max-height: 0%;
+    margin-left: 12px;
+  }
+  h2 {
+    text-align: center;
+  }
+.text-white{
+    color: antiquewhite;
+    margin-left: 21%;
+}
+a{
+  margin-left: 10%;
+}
+
+.btn{
+    margin-left: -10%;
+}
+footer{
+  background-color: darkslategrey;
+
+  text-align: center;
+} */
+/* .scroll{
+  overflow: hidden;
+}
+.scroll h1{
+  position: absolute;
+  padding: 0%;
+  text-align: center;
+  transform: translateX(150%);
+  animation: scroll 15s linear infinite;
+}
+@keyframes scroll{
+0%{
+  transform: translateX(150%);
+}
+100%{
+  transform: translateX(-100%);
+}
+} */
+/* .text-blue{
+    margin-left: 27%;
+} */
+/* .indent {
+  align-content: center;
+} */
+/* .input {
+  width: 100%;
+  height: 42px;
+  border-color: black solid 10px 5px;
+  margin-left: -10%;
+}
+input:active {
+  width: 100%;
+}
+input:focus {
+  min-width: 200px;
+} */
+.loginHeader{
+  height: 60px;
+  background: green;
+}
+.form{
+  height: 550px;
+  width: 500px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 0px 100px;
+  position: relative;
+  align-items: center;
+  max-width: 40%;
+  margin: calc(50vh - 350px) auto;
+  max-width: calc(200vw - 40px);
+  margin-top: 0
+ }
+ .input{
+  border-radius: none;
+  box-sizing: border-box;
+  width: 300px;
+  height: 35px;
+  padding: 20px;
+ }
+ .input:hover{
+  border-bottom: 2px solid black;
+ }
+ .text{
+  margin-left: 30px;
+}

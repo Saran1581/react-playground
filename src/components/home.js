@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./home.css";
+import {Table, Input} from "antd";
+import { useTableSearch } from "./useTableSearch";
+import { userColumns } from "./columns";
+
+
+const { Search } = Input;
 
 const Home = () => {
   const [allUsers, setallUsers] = useState([]);
@@ -31,18 +37,32 @@ const Home = () => {
       })
       .catch((err) => console.log(err));
   };
+  const [searchVal, setSearchVal] = useState(null);
+
+  const { filteredData, loading } = useTableSearch({
+    searchVal,
+    retrieve: getAllUsers,
+  });
 
   return (
-    <div className="page">
+    <div className="home-bg">
       <div
-        className="container"
-        style={{ backgroundColor: "azure", width: "800px", margin: "auto" }}
+        className="container-home"
+        style={{ backgroundColor: "azure", width: "1200px", margin: "auto" }}
       >
         <center>
+        <Search
+        onChange={(e) => setSearchVal(e.target.value)}
+        placeholder="Search"
+        enterButton
+        style={{ position: "sticky", top: "0", left: "0" }}
+      />
           <h3>Home Page</h3>
-          <a style={{ float: "right" }} href="/">
+          <a style={{ float: "right", color: "red" }} href="/">
             Logout
           </a>
+          <br />
+          <br></br>
           <table>
             <tr>
               <th>Name</th>
@@ -50,7 +70,8 @@ const Home = () => {
               <th>Email</th>
               <th>Password</th>
               <th>Gender</th>
-              <th>Nationality</th>
+              <th>Address</th>
+              <th>Placed Status</th>
               <th>Action</th>
             </tr>
             {allUsers?.map((user) => {
@@ -61,7 +82,8 @@ const Home = () => {
                   <td>{user?.email}</td>
                   <td>{user?.password}</td>
                   <td>{user?.gender}</td>
-                  <td>{user?.nationality}</td>
+                  <td>{user?.Address}</td>
+                  <td>{user?.status}</td>
                   <td>
                     <button
                       style={{ cursor: "pointer" }}
